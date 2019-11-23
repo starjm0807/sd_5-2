@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '0.4.10'
+}
+
+group 'edu.postech.csed332.homework5'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+intellij {
+    version '2019.2.1'
+    plugins 'java'
+}
+
